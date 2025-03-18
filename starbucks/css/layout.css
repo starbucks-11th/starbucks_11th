@@ -1,0 +1,150 @@
+/* header 속성 */
+header {
+  width: 100%;
+  height: 120px;
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f6f5ef;
+  background-attachment: scroll;
+}
+nav {
+  overflow: hidden;
+}
+.logo {
+  margin: 0 200px 0 0;
+  float: left;
+}
+#logoAndMenu {
+  /* header의 backgroundcolor를 begie색으로 100% 그 안의 내용을 중앙정렬 */
+  width: 80%;
+  margin: 20px 132.9px;
+}
+
+/* nav 속성 */
+ul > li {
+  float: left;
+  margin: 0 10px;
+  padding: 10px;
+  list-style: none;
+  font-size: 18px;
+  padding-bottom: 49.25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+#member {
+  float: right;
+}
+/* nav 속성 */
+/* header 속성 */
+
+/* section 속성 */
+section {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  height: 500px;
+  left: 0;
+  right: 0;
+}
+
+/* article 속성 */
+#advertise {
+  background: green;
+  background: linear-gradient(
+    45deg,
+    rgb(154, 205, 255) 0%,
+    rgb(154, 205, 50) 100%
+  );
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid black; */
+}
+.explanation {
+  position: absolute;
+  float: left;
+  margin-left: 230px;
+  top: 100px;
+}
+.explanation > h1 {
+  color: yellow;
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 0 5px 5px black;
+  text-align: center;
+}
+.photo1 {
+  position: absolute;
+  left: 500px;
+  top: 30px;
+}
+.photo2 {
+  position: absolute;
+  left: 825px;
+  top: 130px;
+}
+.photo3 {
+  position: absolute;
+  left: 1150px;
+  top: 30px;
+}
+.backboard {
+  position: absolute;
+  top: 15px;
+  left: 12.35px;
+  background-color: rgb(154, 205, 150);
+  width: 98%;
+  height: 94%;
+}
+#advertise img {
+  border-radius: 200px;
+  border: 5px solid rgb(154, 205, 100);
+}
+/* article 속성 */
+
+/* aside 속성 */
+.information_box {
+  width: 100%;
+}
+.information {
+  position: absolute;
+  float: left;
+  width: 50%;
+  background-color: black;
+  color: white;
+  height: 100px;
+  font-size: 18px;
+}
+.promotion {
+  float: right;
+  width: 50%;
+  background-color: white;
+  height: 100px;
+  font-size: 18px;
+}
+.information p {
+  margin-left: 5px;
+}
+/* aside 속성 */
+/* section 속성 */
+
+/* footer 속성 */
+footer {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+
+  top: 720px;
+  position: absolute;
+  background-color: gray;
+}
+/* footer 속성 */
