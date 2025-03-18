@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>productDetail</title>
+    <link href="../css/productDetail.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section>
+      <h1 id="product-type">콜드 브루</h1>
+      <div class="space"></div>
+      <div class="row">
+        <img id="product-image" src="../image/c0003.jpg" />
+        <div class="column">
+          <h1 id="product-name">나이트로 바닐라 크림</h1>
+          <p id="product-name-eng">Nitro Vanila Cream</p>
+          <div class="rowDivder"></div>
+          <p id="product-explanation">
+            부드러운 목넘김의 나이트로 커피와 바닐라 크림의 매력을 한번에
+            느껴보세요!
+          </p>
+          <hr />
+
+          <h3>제품 영양 정보</h3>
+          <p id="product-size">Tall(톨) / 355ml</p>
+
+          <hr />
+          <div class="row spaceEven">
+            <div class="row twoColumns">
+              <div class="column">
+                <p>1회 제공량 (kcal)</p>
+                <p>포화지방 (g)</p>
+                <p>단백질 (g)</p>
+              </div>
+              <div class="column textRight">
+                <p id="calories">80</p>
+                <p id="saturated-fat">2</p>
+                <p id="protein">1</p>
+              </div>
+            </div>
+            <div class="colDivder"></div>
+            <div class="row twoColumns">
+              <div class="column">
+                <p>나트륨 (mg)</p>
+                <p>당류 (g)</p>
+                <p>카페인 (mg)</p>
+              </div>
+              <div class="column textRight">
+                <p id="sodium">40</p>
+                <p id="sugar">10</p>
+                <p id="caffeine">232</p>
+              </div>
+            </div>
+          </div>
+          <div class="highlight" id="allergens">알레르기 유발요인 : 우유</div>
+          <div class="row spaceEven">
+            <div class="row">
+              <p>수량 :</p>
+              <input type="number" id="quantity" />
+            </div>
+            <button>장바구니 담기</button>
+          </div>
+        </div>
+      </div>
+
+      <p id="product-description">
+        부드러운 목넘김의 나이트로 커피와 바닐라 크림의 매력을 한번에
+        느껴보세요!
+      </p>
+
+      <hr />
+      <script src="../javascript/productDetail.cjs"></script>
+    </section>
+  </body>
+</html>
