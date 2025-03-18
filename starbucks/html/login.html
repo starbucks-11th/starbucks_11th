@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <script
+      type="module"
+      src="../js/login.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- HEAD -->
+      <div id="logoAndMenu">
+        <div class="logo">
+          <a href="../html/layout.html"
+            ><img src="../image/logo.png" alt="logo"
+          /></a>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li class="products"><a href="#">음료</a></li>
+            <li class="cart"><a href="#">장바구니</a></li>
+            <li class="orders"><a href="#">주문목록</a></li>
+            <li><a href="../html/login.html">로그인</a></li>
+            <li><a href="#">로그아웃</a></li>
+            <li><a href="../html/signUp.html">가입</a></li>
+            <li id="member">로그인 해주세요</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <article>
+        내용
+        <div id="map" style="width: 100%; height: 95%; border: 1px solid">
+          <form>
+            <fieldset>
+              <legend>로그인</legend>
+              <input
+                id="id"
+                type="text"
+                placeholder="아이디를 입력해 주세요."
+              />
+              <br />
+              <input
+                id="password1"
+                type="password"
+                placeholder="비밀번호를 입력해 주세요."
+              />
+              <br />
+              <input id="memoryId" type="checkbox" />아이디 저장
+              <input id="login" type="submit" value="로그인" />
+            </fieldset>
+          </form>
+        </div>
+        <aside>
+          <div class="information_box">
+            <div class="information"><p>공지사항</p></div>
+            <div class="promotion"><p>스타벅스 프로모션</p></div>
+          </div>
+        </aside>
+      </section>
+      <footer>FOOT</footer>
+  </body>
+</html>
