@@ -23,9 +23,13 @@
         </div>
         <nav>
           <ul class="menu">
-            <li class="products"><a href="#">음료</a></li>
-            <li class="cart"><a href="#">장바구니</a></li>
-            <li class="orders"><a href="#">주문목록</a></li>
+            <li class="products">
+              <a href="../html/productList.html">음료</a>
+            </li>
+            <li class="cart"><a href="../html/cartList.html">장바구니</a></li>
+            <li class="orders">
+              <a href="../html/orderList.html">주문목록</a>
+            </li>
             <li><a href="../html/login.html">로그인</a></li>
             <li><a href="#">로그아웃</a></li>
             <li><a href="../html/signUp.html">가입</a></li>
@@ -40,7 +44,8 @@
         <div id="map" style="width: 100%; height: 95%; border: 1px solid">
           <form>
             <fieldset>
-              <legend>로그인</legend>
+              <legend><img src="../image/logo.png"><br/>
+                로그인</legend>
               <input
                 id="id"
                 type="text"
@@ -55,7 +60,13 @@
               <br />
               <input id="memoryId" type="checkbox" />아이디 저장
               <input id="login" type="submit" value="로그인" />
-            </fieldset>
+              <br/>
+              <br/>
+              <div class="middle">
+              <a href="../html/signUp.html"><input id="newSignUp" type="button" value="  회원가입  "></a>
+              <a href="../html/findId.html"><input id="findId" type="button" value=" 아이디 찾기 "></a>
+              <a href="../html/findPassword.html"><input id="findPass" type="button" value="비밀번호 찾기"></div></a>
+            </fieldset> 
           </form>
         </div>
         <aside>
