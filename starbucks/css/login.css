@@ -3,6 +3,7 @@ fieldset {
   margin: 10px auto;
   padding: 10px;
   z-index: 1;
+  background-color: rgb(237, 255, 239);
 }
 legend {
   text-align: center;
@@ -26,4 +27,23 @@ legend {
   height: 25px;
   margin: 5px 0;
   background-color: #d9d9d9;
+}
+
+#findId {
+  height: 25px;
+  background-color: #d9d9d9;
+  margin: 0 auto;
+}
+#newSignUp {
+  height: 25px;
+  background-color: #d9d9d9;
+  float: left;
+}
+#findPass {
+  height: 25px;
+  background-color: #d9d9d9;
+  float: right;
+}
+.middle {
+  text-align: center;
 }
