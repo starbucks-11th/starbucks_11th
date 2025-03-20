@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="../css/cartList.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+  </head>
+  <body>
+    <header>
+      <!-- HEAD -->
+      <div id="logoAndMenu">
+        <div class="logo">
+          <a href="../html/layout.html"
+            ><img src="../image/logo.png" alt="logo"
+          /></a>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li class="products"><a href="#">음료</a></li>
+            <li class="cart"><a href="#">장바구니</a></li>
+            <li class="orders"><a href="#">주문목록</a></li>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">로그아웃</a></li>
+            <li><a href="/html/singUp.html">가입</a></li>
+            <li id="member">로그인 해주세요</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <article>
+        <div class="cartItem">
+          <img src="../image/C0001.jpg" alt="상품 이미지" class="productImg" />
+          <div class="productInfo">
+            <p class="productKorName">초코 라떼</p>
+            <p class="productEngName">Choco Latte</p>
+            <div class="productMeta">
+              <p class="productDetail">ICED | Tall | 매장컵</p>
+              <p class="productPrice">4,200원</p>
+            </div>
+            <p class="optionChange">옵션변경</p>
+            <div class="productCount">
+              <div class="countbutton">
+                <button class="decrease">-</button>
+                <span class="count">1</span>
+                <button class="increase">+</button>
+              </div>
+              <p class="price">4,200원</p>
+            </div>
+          </div>
+        </div>
+        <div class="cartItem">
+          <img src="../image/C0002.jpg" alt="상품 이미지" class="productImg" />
+          <div class="productInfo">
+            <p class="productKorName">아이스 카페 아메리카노</p>
+            <p class="productEngName">Iced Caffe Americano</p>
+            <div class="productMeta">
+              <p class="productDetail">ICED | Tall | 매장컵</p>
+              <p class="productPrice">4,400원</p>
+            </div>
+            <p class="optionChange">옵션변경</p>
+            <div class="productCount">
+              <div class="countbutton">
+                <button class="decrease">-</button>
+                <span class="count">1</span>
+                <button class="increase">+</button>
+              </div>
+              <p class="price">4,400원</p>
+            </div>
+          </div>
+        </div>
+        <div class="cartItem">
+          <img src="../image/C0003.jpg" alt="상품 이미지" class="productImg" />
+          <div class="productInfo">
+            <p class="productKorName">아이스 카페 아메리카노</p>
+            <p class="productEngName">Iced Caffe Americano</p>
+            <div class="productMeta">
+              <p class="productDetail">ICED | Tall | 매장컵</p>
+              <p class="productPrice">4,800원</p>
+            </div>
+            <p class="optionChange">옵션변경</p>
+            <div class="productCount">
+              <div class="countbutton">
+                <button class="decrease">-</button>
+                <span class="count">1</span>
+                <button class="increase">+</button>
+              </div>
+              <p class="price">4,800원</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="payment">
+          <p class="totalCount">
+            총 <span class="totalCountNumber">2개</span> / 20개
+          </p>
+          <p class="totalPrice">13,600원</p>
+        </div>
+        <button class="button">주문하기</button>
+      </article>
+    </section>
+    <script src="../js/catList.js"></script>
+  </body>
+</html>

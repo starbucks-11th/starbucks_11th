@@ -1,0 +1,62 @@
+/* 전체 페이지 스타일 */
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* 테이블 스타일 */
+.orderList {
+  width: 80%;
+  padding-top: 100px;
+  margin: 200px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 테이블 헤더 스타일 */
+.orderList th {
+  background-color: solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* 테이블 셀 스타일 */
+.orderList td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 마지막 행은 border 제거 */
+.orderList tr:last-child td {
+  border-bottom: none;
+}
+
+/* 리스트 스타일 제거 및 정렬 */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 4px;
+}
+
+/* 반응형 테이블 */
+@media (max-width: 768px) {
+  .order-list {
+    width: 100%;
+    font-size: 14px;
+  }
+  .order-list th,
+  .order-list td {
+    padding: 8px;
+  }
+}
