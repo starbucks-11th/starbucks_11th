@@ -3,6 +3,7 @@ fieldset {
   margin: 10px auto;
   padding: 10px;
   z-index: 1;
+  background-color: rgb(237, 255, 239);
 }
 
 legend {
